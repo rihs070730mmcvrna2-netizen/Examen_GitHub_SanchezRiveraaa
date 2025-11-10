@@ -1,0 +1,70 @@
+/* 🌸✨ Estilo general - Página principal */
+body {
+  background: linear-gradient(135deg, #fde2f3, #e8f8ff, #fff8e7);
+  font-family: "Poppins", sans-serif;
+  color: #5a4b81;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+header {
+  background-color: #f9d8e6;
+  padding: 25px;
+  border-bottom: 3px solid #e0bce1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 2.6em;
+  color: #b67cf1;
+  text-shadow: 1px 1px 4px #fff;
+}
+
+h1::before { content: "🌸✨ "; }
+h1::after { content: " ✨🌸"; }
+
+h2 {
+  color: #6d5ac3;
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.1em;
+  width: 85%;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+a {
+  display: inline-block;
+  background-color: #e2c3f9;
+  padding: 10px 25px;
+  margin: 10px;
+  border-radius: 30px;
+  color: #5a368e;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: #c2a0f7;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #dcb8ff;
+}
+
+footer {
+  background-color: #f3d0f8;
+  padding: 10px;
+  border-top: 2px solid #e0bce1;
+  font-size: 0.9em;
+}
+
+/* 🌈 Animación de entrada */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

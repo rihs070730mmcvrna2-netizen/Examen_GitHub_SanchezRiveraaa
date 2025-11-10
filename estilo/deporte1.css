@@ -1,0 +1,68 @@
+/* ⚽💚 Estilo deportivo pastel */
+body {
+  background: linear-gradient(135deg, #c7f9cc, #e0f7fa, #fffbea);
+  font-family: "Poppins", sans-serif;
+  color: #145a32;
+  margin: 0;
+  padding: 0;
+  animation: fadeIn 1s ease-in;
+}
+
+h1 {
+  text-align: center;
+  color: #1a7431;
+  font-size: 2.4em;
+  text-shadow: 1px 1px 4px #fff;
+}
+
+h1::before { content: "⚽🏃‍♀️ "; }
+h1::after { content: " 🏃‍♂️⚽"; }
+
+h2 {
+  color: #297f4e;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  width: 85%;
+  margin: 10px auto;
+  line-height: 1.7;
+}
+
+ul, ol {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto 20px;
+  background-color: #f1fdf2;
+  padding: 15px 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+li::before {
+  content: "🌿 ";
+}
+
+a {
+  background-color: #a2e4a6;
+  color: #145a32;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: #7ed957;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #b4f5b8;
+}
+
+/* 🌼 Animación */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
